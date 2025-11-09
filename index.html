@@ -29,6 +29,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="apple-mobile-web-app-title" content="YouR Star">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <meta name="theme-color" content="#0C2861">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png" />
@@ -37,6 +38,28 @@
 
   <title>YouR Star</title>
   <link rel="manifest" href="manifest.json">
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      background-color: #0C2861;
+      color-scheme: dark;
+      overscroll-behavior: none;
+    }
+
+    body {
+      min-height: 100vh;
+    }
+
+    #flt-glass-pane,
+    canvas,
+    .flutter-view {
+      background-color: transparent !important;
+    }
+  </style>
 </head>
 
 <body>
