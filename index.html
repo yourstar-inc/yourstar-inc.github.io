@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 
 <head>
   <!--
@@ -19,7 +19,39 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="YouR Star Inc.">
+
+  <!-- Primary Meta Tags -->
+  <title>YouR Star Inc.</title>
+  <meta name="title" content="YouR Star Inc. - We will be your star, until you become a star.">
+  <meta name="description" content="Your guiding star lighting the way to personal growth and business excellence">
+  <meta name="keywords"
+    content="YouR Star, YouR Star Inc, 기술 컨설팅, 디자인, 전략, 비즈니스 성장, 기술 통합, 디자인 전략, 비즈니스 혁신, 스타트업 지원, 기술 디자인, business consulting, technology design, strategy, innovation, growth">
+  <meta name="author" content="YouR Star Inc.">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="Korean, English">
+  <meta name="revisit-after" content="7 days">
+  <link rel="canonical" href="https://yourstar.space/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourstar.space/">
+  <meta property="og:title" content="YouR Star Inc. - We will be your star, until you become a star.">
+  <meta property="og:description"
+    content="Your guiding star lighting the way to personal growth and business excellence">
+  <meta property="og:image" content="https://yourstar.space/oglink.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="YouR Star Inc.">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:locale:alternate" content="en_US">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://yourstar.space/">
+  <meta name="twitter:title" content="YouR Star Inc. - We will be your star, until you become a star.">
+  <meta name="twitter:description"
+    content="Your guiding star lighting the way to personal growth and business excellence">
+  <meta name="twitter:image" content="https://yourstar.space/oglink.png">
 
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
@@ -27,61 +59,59 @@
     content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="apple-mobile-web-app-title" content="YouR Star">
+  <meta name="apple-mobile-web-app-title" content="YouR Star Inc.">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
-  <meta name="theme-color" content="transparent">
+  <meta name="theme-color" content="#000000">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png" />
 
-  <meta property="og:image" content="oglink.png">
-
-  <title>YouR Star</title>
   <link rel="manifest" href="manifest.json">
-  <style>
-    :root {
-      --safe-area-top: env(safe-area-inset-top, 0px);
-      --safe-area-bottom: env(safe-area-inset-bottom, 0px);
-      --safe-area-left: env(safe-area-inset-left, 0px);
-      --safe-area-right: env(safe-area-inset-right, 0px);
-    }
 
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "YouR Star Inc.",
+    "alternateName": "YouR Star",
+    "url": "https://yourstar.space",
+    "logo": "https://yourstar.space/icons/Icon-192.png",
+    "description": "We guide individuals and businesses to shine through integrated technology, design, and strategy. Helping you connect the Stars of growth and innovation.",
+    "slogan": "We will be your star, until you become a star.",
+    "email": "info@yourstar.inc",
+    "sameAs": [],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "info@yourstar.inc",
+      "contactType": "Customer Service"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "KR"
+    }
+  }
+  </script>
+  <style>
     html,
     body {
       margin: 0;
       padding: 0;
-      width: 100vw;
       height: 100%;
-      background-color: transparent;
+      width: 100%;
+      background-color: #000000;
+      color-scheme: dark;
       overscroll-behavior: none;
     }
 
-    html {
-      min-height: 100dvh;
-      min-height: -webkit-fill-available;
-    }
-
     body {
-      min-height: calc(100vh + var(--safe-area-top) + var(--safe-area-bottom));
-      min-height: calc(100dvh + var(--safe-area-top) + var(--safe-area-bottom));
-      min-height: -webkit-fill-available;
-      overflow: hidden;
+      min-height: 100vh;
     }
 
-    #flutter_container,
     #flt-glass-pane,
-    .flt-glass-pane,
     canvas,
     .flutter-view {
-      position: fixed !important;
-      top: calc(var(--safe-area-top) * -1) !important;
-      left: calc(var(--safe-area-left) * -1) !important;
-      width: calc(100vw + var(--safe-area-left) + var(--safe-area-right)) !important;
-      height: calc(100vh + var(--safe-area-top) + var(--safe-area-bottom)) !important;
-      height: calc(100dvh + var(--safe-area-top) + var(--safe-area-bottom)) !important;
-      height: -webkit-fill-available !important;
       background-color: transparent !important;
-      overflow: hidden !important;
     }
   </style>
 </head>
