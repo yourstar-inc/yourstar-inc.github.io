@@ -27488,7 +27488,6 @@ s=4
 break
 case 2:o=[1]
 case 4:q=1
-v.G.document.documentElement.requestFullscreen()
 if($.a7==null)A.aqb()
 l=$.a7
 l.toString
