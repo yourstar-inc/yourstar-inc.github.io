@@ -90407,7 +90407,7 @@ p=A.b([0,1],t.n)
 p=A.oD(q,new A.fr(B.bi,B.c4,B.at,A.b([A.aJ(l).cl(1),A.aJ(l).cl(0.6)],t.b),p,m))
 q=A.bE(28,m,22,m,18,m,16)
 o=t.p
-r=A.bz(B.r,A.kK(A.b([new A.jx(m),A.bz(m,A.eQ(B.dP,A.b([p,A.hg(m,A.bz(m,B.T4.a58(),B.m,m,m,m,m,m,m,new A.aR(0,2,0,0),m,m,m,m),m,m,m,q,m,m)],o),B.z,B.ao,m),B.m,m,m,m,m,m,m,new A.aR(0,0,0,200),m,m,m,m),A.c6(m,m,A.bE(70,m,m,m,60,m,50)),A.kK(A.b([n.pG(u.o,B.mi,1,"Children App"),n.pG(u._,B.mj,2,"Education"),n.pG(u.D,B.mk,3,"Tech Consulting")],o),B.bl,B.ac,B.a_),new A.jx(m)],o),B.U,B.cL,B.dm),B.m,m,m,m,m,m,m,new A.aR(s,70,r/2,0),m,m,m,m)
+r=A.bz(B.r,A.kK(A.b([new A.jx(m),A.bz(m,A.eQ(B.dP,A.b([p,A.hg(m,A.bz(m,B.T4.a58(),B.m,m,m,m,m,m,m,new A.aR(0,2,0,0),m,m,m,m),m,m,m,q,m,m)],o),B.z,B.ao,m),B.m,m,m,m,m,m,m,new A.aR(0,0,0,200),m,m,m,m),A.c6(m,m,A.bE(70,m,m,m,60,m,50)),A.kK(A.b([n.pG(u.o,B.mi,1,"Lovely Tales"),n.pG(u._,B.mj,2,"Education"),n.pG(u.D,B.mk,3,"Tech Consulting")],o),B.bl,B.ac,B.a_),new A.jx(m)],o),B.U,B.cL,B.dm),B.m,m,m,m,m,m,m,new A.aR(s,70,r/2,0),m,m,m,m)
 s=r}else s=n.a6u()
 return A.j1(s,m,m)},
 a6u(){var s,r,q=this,p=null,o=q.c
