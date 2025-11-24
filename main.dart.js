@@ -94317,7 +94317,7 @@ return A.jH(s,m,m)},
 a7X(){var s,r,q=this,p=null,o=q.c
 o.toString
 o=A.aD(o,p,t.w).w
-s=A.b([q.q4(u.o,B.mm,1,"Children App"),q.q4(u._,B.mn,2,"Education"),q.q4(u.E,B.mo,3,"Tech Consulting")],t.p)
+s=A.b([q.q4(u.o,B.mm,1,"Lovely Tales"),q.q4(u._,B.mn,2,"Education"),q.q4(u.E,B.mo,3,"Tech Consulting")],t.p)
 r=$.a7
 return A.bK(B.t,new A.Ab(new A.a6M(540,1.9607843137254901,205/o.a.a,0,!0,!1,!1,!0,B.aQ,new A.aww(q),0.3),s,new A.a6N(new A.by(new A.at(r,t.wC),t.Fe)),3,p),B.m,p,p,p,p,p,p,new A.b0(0,70,0,0),p,p,p,p)},
 q4(a6,a7,a8,a9){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0=this,a1=null,a2=1000,a3=4294967295,a4=a0.d===a8,a5=a0.c
