@@ -1,0 +1,19 @@
+# YouR Star Inc.
+
+> YouR Star Inc. (주식회사 유어스타) is an AI-native company based in Daejeon, Korea, founded in December 2024. It builds Lovely Tales, AI-powered personalized storybooks for children, and also provides software education and tech consulting.
+
+## Key facts
+
+- Legal name: YouR Star Inc. (주식회사 유어스타)
+- Founded: December 2024
+- Headquarters: 4th Floor J92, 566 Gyeryong-ro, Seo-gu, Daejeon, Republic of Korea
+- Email: info@yourstar.space
+- Products and services: Lovely Tales (AI-powered personalized storybooks for children), software education, tech consulting
+- Trademark: LOVELY TALES, U.S. Trademark Application Serial No. 99476199 (USPTO), filed Nov 3, 2025, pending ([status](https://tsdr.uspto.gov/#caseNumber=99476199&caseType=SERIAL_NO&searchType=statusSearch))
+
+## Links
+
+- [Home](https://yourstar.space/): Company website
+- [Privacy Policy](https://yourstar.space/privacy-policy/): Privacy policy (Korean and English)
+- [Terms of Service](https://yourstar.space/terms-of-service/): Terms of service (Korean and English)
+- [Sitemap](https://yourstar.space/sitemap.xml): All public pages

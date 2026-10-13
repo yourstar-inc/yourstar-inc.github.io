@@ -1,0 +1,49 @@
+/* YouR Star Inc. — legal pages (privacy-policy, terms-of-service). Replicates Flutter TermsScreen. */
+@font-face{font-family:'Noto Sans KR';font-style:normal;font-weight:400;font-display:swap;src:url('/assets/fonts/noto-sans-kr-regular.woff2') format('woff2')}
+@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:300;font-display:swap;src:url('/assets/fonts/cormorant-garamond-light.woff2') format('woff2')}
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0;padding:0;height:100%}
+.legal-body{background:#04112D linear-gradient(180deg,#0C2861 0%,#04112D 100%) fixed;color:#fff;font-family:'Noto Sans KR',sans-serif;-webkit-font-smoothing:antialiased;overflow:hidden;-webkit-text-size-adjust:100%}
+.legal-bg{position:fixed;inset:0;z-index:0;pointer-events:none;background:linear-gradient(180deg,#0C2861 0%,#04112D 100%)}
+.legal-glow{position:absolute;width:270px;height:270px;object-fit:contain}
+.legal-glow--bl{left:0;bottom:0;object-position:left bottom}
+.legal-glow--tr{top:0;right:0;width:300px;height:300px;object-position:right top;transition:width 1s cubic-bezier(.4,0,.2,1),height 1s cubic-bezier(.4,0,.2,1)}
+.legal-appbar{position:fixed;top:0;left:0;right:0;height:100px;z-index:10;display:flex;align-items:center;justify-content:flex-start;padding:0 36px 10px}
+.legal-logo{display:none;line-height:0}
+.legal-logo img{width:77px;height:35px;display:block}
+.legal-appbar-title{margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:40px;line-height:46px;color:#fff;white-space:nowrap}
+.legal-main{position:fixed;inset:0;z-index:1;padding:100px 36px 0;display:flex;flex-direction:column;align-items:center}
+.legal-controls{width:100%;max-width:700px;padding:10px 0;display:flex;justify-content:space-between;align-items:center;flex:none}
+.legal-tabs{display:flex;background:rgba(255,255,255,.1);border-radius:20px}
+.legal-tab{display:block;padding:8px 16px;border-radius:20px;font-size:14px;line-height:20px;color:rgba(255,255,255,.6);text-decoration:none;white-space:nowrap;transition:background-color .2s,color .2s}
+.legal-tab.is-selected{background:#fff;color:#000;font-weight:700}
+.legal-scroll:focus{outline:none}
+.legal-tab:focus-visible,.legal-lang-select:focus-visible,.legal-logo:focus-visible,.legal-back a:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.legal-lang{position:relative;height:48px;border-radius:20px;background:rgba(255,255,255,.1);padding:0 12px;display:flex;align-items:center}
+.legal-lang-select{appearance:none;-webkit-appearance:none;background:transparent;border:0;color:#fff;font:400 14px/48px 'Noto Sans KR',sans-serif;height:48px;padding:0 28px 0 4px;margin:0;cursor:pointer;width:52px}
+.legal-lang-select option{background:#212121;color:#fff}
+.legal-lang-icon{position:absolute;right:12px;top:12px;pointer-events:none}
+.legal-scroll{flex:1;width:calc(100% + 72px);margin:0 -36px;padding:24px 36px;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain}
+.legal-doc{max-width:700px;margin:0 auto;letter-spacing:.25px;font-size:13px;line-height:1.6;color:#fff;transition:opacity .3s cubic-bezier(.4,0,.2,1)}
+.legal-doc[hidden]{display:none}
+.legal-doc.is-fading{opacity:0}
+.legal-doc h1,.legal-doc h2,.legal-doc p,.legal-doc ul,.legal-doc li{margin:0;padding:0;font-size:13px;font-weight:400;line-height:1.6;white-space:pre-wrap;word-break:normal;line-break:auto;overflow-wrap:anywhere}
+.legal-doc[lang="en"] h1,.legal-doc[lang="en"] h2,.legal-doc[lang="en"] p,.legal-doc[lang="en"] li{line-break:auto;overflow-wrap:break-word}
+.legal-doc ul{list-style:none}
+.legal-gap{height:1.6em}
+.legal-doc ::selection{background:rgba(255,255,255,.2)}
+.legal-back{max-width:700px;margin:32px auto 0;font-size:13px;line-height:1.6}
+.legal-back a{color:rgba(255,255,255,.6);text-decoration:none}
+.legal-back a:hover{color:#fff}
+.legal-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media (min-width:768px){
+  .legal-appbar{justify-content:center;padding:0 70px 20px}
+  .legal-logo{display:block}
+  .legal-logo img{height:40px}
+  .legal-appbar-title{display:none}
+  .legal-main{padding:100px 70px 0}
+  .legal-scroll{width:calc(100% + 140px);margin:0 -70px;padding:24px 70px}
+  .legal-glow--bl{width:620px;height:620px}
+  .legal-glow--tr{width:620px;height:620px}
+}
+@media (prefers-reduced-motion:reduce){.legal-doc,.legal-glow--tr,.legal-tab{transition:none}}
